@@ -1,0 +1,269 @@
+/*通用选择器*/
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+/*首部的头*/
+.music_container .head .header{
+    height: 80px;
+    width: 1320px;
+    *background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.music_container .head .header div{
+
+    display: inline-block;
+    line-height: 80px;
+
+}
+
+.music_container .head .header .image a img{
+    width: 155px;
+    height: 40px;
+    margin-left: 50px;
+    vertical-align: middle;/*图片居中*/
+
+}
+
+.music_container .head .header .search{
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #868686;
+    margin-left: 50px;
+
+}
+.music_container .head .header .search form> input{
+    width: 200px;
+    height: 30px;
+    line-height: 20px;
+    border-style: none;
+    outline: none;
+    margin-left: 10px;
+    padding: 0px;
+}
+.music_container .head .header .search form> button{
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    border-style: none;
+    outline: none;
+    background: white;
+}
+.music_container .head .header .search form> button i{
+    color: #868686;
+    width: 50px;
+    height: 30px;
+    font-style: normal;
+}
+.music_container .head .header .search form> button i:hover{
+    color: #54A6EC;
+    width: 50px;
+    height: 30px;
+    font-style: normal;
+}
+
+.music_container .head .header .manager{
+    margin-left: 100px;
+}
+
+.music_container .head .header .manager dl dd{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.music_container .head .header .manager dl dd a{
+    color: #777777;
+}
+
+.music_container .head .header .manager dl dd a:hover{
+    color: #00A7F6;
+}
+
+.music_container .head .header .delimiter font{
+    color: #E6E6E6;
+    font-size: 30px;
+}
+/*首部导航栏*/
+.music_container .head .guide{
+    background: #2C323B;
+    height: 80px;
+    width: 100%;
+    *text-align: center;
+}
+.music_container .head .guide .bigGuide{
+    height: 80px;
+    width: 1300px;
+    *background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.music_container .head .guide .bigGuide> div{
+    display: inline-block;
+
+}
+.music_container .head .guide .bigGuide .guideLeft{
+    position: relative;
+    min-width: 500px;
+    margin-left: 50px;
+}
+.music_container .head .guide .bigGuide .guideLeft > dl dd {
+    display: inline-block;
+}
+
+.music_container .head .guide .bigGuide .guideLeft > dl > dd > div{
+    line-height: 80px;
+    margin-left: 25px;
+    min-width: 100px;
+    text-align: center;
+}
+/*.firstPage .head .guide .bigGuide .guideLeft > dl > dd > div a:nth-child(1){
+	background: #0C8ED9;
+}*/
+.music_container .head .guide .bigGuide .guideLeft > dl > dd > div a{
+    font-size: 20px;
+    color: #DDDDDD;
+    text-align: center;
+}
+.music_container .head .guide .bigGuide .guideLeft > dl > dd > div:hover{
+    width: 100px;
+    height: 80px;
+    background: #0C8ED9;
+}
+.music_container .head .guide .bigGuide .guideLeft > dl .drop{
+    position: relative;
+}
+.music_container .head .guide .bigGuide .guideLeft > dl .drop>div{
+    line-height: 80px;
+    text-align: center;
+}
+.music_container .head .guide .bigGuide .guideLeft > dl .drop>div:hover{
+    width: 100px;
+    height: 80px;
+    background: #0C8ED9;
+}
+.music_container .head .guide .bigGuide .guideLeft > dl .drop>div a{
+    color: #DDDDDD;
+    font-size: 20px;
+    text-align: center;
+}
+.music_container .head .guide .bigGuide .guideLeft > dl .drop .drop_list{
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    min-height: 100px;
+    min-width: 100px;
+    padding: 0px;
+    background: #2C323B;
+    display: none;
+}
+
+.music_container .head .guide .bigGuide .guideLeft > dl .drop:hover .drop_list{
+    display: block;
+}
+
+.music_container .head .guide .bigGuide .guideLeft > dl .drop .drop_list li div :first-child{
+    margin-top: 10px;
+}
+.music_container .head .guide .bigGuide .guideLeft > dl .drop .drop_list li div a{
+    color: #DDDDDD;
+    font-size: 20px;
+}
+.music_container .head .guide .bigGuide .guideLeft > dl .drop .drop_list li div{
+
+    text-align: center;
+    margin-bottom: 10px;
+}
+.music_container .head .guide .bigGuide .guideLeft > dl .drop .drop_list li div:hover{
+    width: 100px;
+    min-height: 20px;
+    background: #2D343D;
+    padding: 0px;
+}
+
+.music_container .head .guide .bigGuide .guideRight{
+    margin-left: 100px;
+}
+
+.music_container .head .guide .bigGuide .guideRight > dl > dd{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+
+}
+.music_container .head .guide .bigGuide .guideRight > dl > dd a{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.music_container .head .guide .bigGuide .guideRight > dl > dd a:hover{
+    color: #0C8ED9;
+}
+.music_container .head .rotationChart{
+    width: 1447px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.music_container .head .rotationChart img{
+    width: 100%;
+    height: auto;
+}
+
+.music_container .head .download{
+    background: #549EA3;
+    z-index: 20;
+    width: 100%;
+    height: 64px;
+    line-height: 58px;
+    color: #dee2e7;
+    text-align: center;
+}
+.music_container .head .download img{
+    width: 20px;
+}
+
+.music_container .head .download a{
+    color: white;
+    font-size: 25px;
+}
+.music_container .head .download a:hover{
+    color: #ffffdf;
+}
+.music_container .head .download span.line{
+    border: 1px solid darkgrey;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*排行榜*/
+.music_container{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.music_container .rankList p{
+    font-size: 30px;
+    color: white;
+    background-color: #1b6d85;
+    font-family: "Microsoft JhengHei";
+}
+.music_container .rankList .content a{
+    font-size: 20px;
+    color: black;
+    text-align: right;
+}
+.music_container .rankList .content a:hover{
+    color: #009AF1;
+    text-underline: none;
+}
+.music_container .rankList .content i{
+    float: right;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+.music_container .rankList .content .time{
+    float: right;
+}

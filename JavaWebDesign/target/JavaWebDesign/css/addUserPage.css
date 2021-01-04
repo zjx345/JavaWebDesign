@@ -1,0 +1,21 @@
+.addUser{
+    margin-left: 500px;
+}
+.addUser .title{
+    margin-left: 150px;
+}
+.addUser input[type="text"]{
+    margin-top: 30px;
+    height: 30px;
+    width: 300px;
+}
+.addUser input:last-child{
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    background-color: #00A7F6;
+    border-color: #00A7F6;
+    color: white;
+    font-size: 18px;
+}

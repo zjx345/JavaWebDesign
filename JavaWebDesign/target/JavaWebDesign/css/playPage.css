@@ -1,0 +1,55 @@
+@charset "utf-8";
+body {
+    margin: 0px;
+    background: url(../img/page-bg.jpg) no-repeat 50%/100% 100%;
+}
+.Title{
+    text-align: center;
+    font-size: 30px;
+    color: #488983;
+}
+.PlayEy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 653px;
+    height: 653px;
+    background: url(../img/bg_circle.png),url(../img/bg_center.png) no-repeat center;
+}
+
+.Btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 95px;
+    background-color: yellow;
+    background: url(../img/btn-bg.png) no-repeat;
+    animation: Btn-bg 3s linear infinite;
+}
+
+.Play {
+    position: absolute;
+    width: 29px;
+    height: 36px;
+    background: red;
+    background: url(../img/pause.png) no-repeat;
+    transition: .5s;
+}
+
+.btns-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 653px;
+    height: 653px;
+}
+
+@keyframes Btn-bg {
+    from {}
+    to {
+        transform: rotate(360deg);
+    }
+}

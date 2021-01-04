@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ZJX">
+    <output-path>D:/</output-path>
+    <root id="archive" name="JavaWebDesign_war.war">
+      <element id="artifact" artifact-name="JavaWebDesign:war exploded" />
+      <element id="module-source" name="JavaWebDesign" />
+    </root>
+  </artifact>
+</component>
